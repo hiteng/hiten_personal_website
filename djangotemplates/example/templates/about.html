@@ -1,0 +1,67 @@
+{% extends 'base.html' %} <!-- Add this for inheritance -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}About Us {% endblock %}</title>
+</head>
+<body>
+  {% block pagecontent %}
+  {% include 'partials/nav-bar.html' %}
+    <p>
+    OBJECTIVE:
+    <p>Accomplished Software Engineer with proven track record and strong analytical, problem-solving
+    expertise with a passion for building lasting relationships. Hands-on curious engineer with 5.5+ years of
+      overall IT experience as a leader , a key team member in the development of numerous projects.</p>
+  <p>SUMMARY:</p>
+
+    <ul type="square">
+
+        <li>5.5+ years of experience in design, development, integration and maintaining systems using
+            Python, Flask, Restful API’s and microservices architecture.</li>
+        <li>Designed and developed continuous integration using Python, Flask, GitHub and Jenkins.</li>
+        <li>Understanding of the threading limitations of Python, and multi-process architecture.</li>
+        <li>Defined branching strategies in GitHub and implementation of best practices.</li>
+        <li>Experienced in Agile Methodologies and SCRUM Process.</li>
+        <li>Experience with Unit testing/ Test driven Development (TDD).</li>
+        <li>Understanding of distributed systems, including good working knowledge of storage, networking,
+            and File/Object technologies.</li>
+        <li>Experienced with automatic testing with PyUnit, PyTest modules.</li>
+        <li>Hands on implementation of DevOps end to end solutions in agile product development lifecycle.</li>
+        <li>Experienced with Jira for daily scrums and work management.</li>
+        <li>Experience with object-oriented programming (OOPS) concepts using Python .</li>
+        <li>Experience in using UNIX shell Scripts for automating batch programs.</li>
+        <li>Experience with defining continuous integration/continuous delivery pipelines using JSON or
+            YAML .</li>
+        <li>Experience with debugging, used pydebug and debugging using IDE ’s like PyCharm .</li>
+
+    </ul>
+    <p>TECHNOLOGIES:</p>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Languages</td>
+      <td>Python, Shell Script, Bash Script</td>
+    </tr>
+    <tr>
+      <td>Python Framework</td>
+      <td>PyUnit, Flask, Requests, Paramiko, PyQT, Tkinter</td>
+    </tr>
+    <tr>
+      <td>Databases</td>
+      <td>GitHub, Bitbucket</td>
+    </tr>
+  </tbody>
+</table>
+    </p>
+
+  {% endblock %}
+</body>
+</html>
